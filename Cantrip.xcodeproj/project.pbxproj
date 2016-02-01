@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D23DAC91C5F0EEC00C5FFBA /* DreamGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D23DAC71C5F0EEC00C5FFBA /* DreamGame.xcdatamodeld */; };
 		6A1ACADA1AA0CEA9002A231F /* MM_StarterSetDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1ACAD91AA0CEA9002A231F /* MM_StarterSetDataManager.m */; };
 		6A1ACAE01AA0E3DF002A231F /* MM_CharacterListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1ACADF1AA0E3DF002A231F /* MM_CharacterListTableViewController.m */; };
 		6A25078E1AA0EFAF00C2C98C /* MM_CharacterDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A25078D1AA0EFAF00C2C98C /* MM_CharacterDetailTableViewController.m */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D23DAC81C5F0EEC00C5FFBA /* DreamGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamGame.xcdatamodel; sourceTree = "<group>"; };
 		6A1ACAD81AA0CEA9002A231F /* MM_StarterSetDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM_StarterSetDataManager.h; sourceTree = "<group>"; };
 		6A1ACAD91AA0CEA9002A231F /* MM_StarterSetDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MM_StarterSetDataManager.m; sourceTree = "<group>"; };
 		6A1ACADE1AA0E3DF002A231F /* MM_CharacterListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MM_CharacterListTableViewController.h; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 				6A88747D1AE58B4F00FF1280 /* MM_CharacterDetailDataManager.m */,
 				6AA2E2E11A9A595B00843582 /* Images.xcassets */,
 				6AA2E2D81A9A595A00843582 /* Cantrip.xcdatamodeld */,
+				3D23DAC71C5F0EEC00C5FFBA /* DreamGame.xcdatamodeld */,
 				6A1ACAD71AA0CB5D002A231F /* ManagedObjects */,
 				6AA2E2D11A9A595A00843582 /* Supporting Files */,
 			);
@@ -509,6 +512,7 @@
 				6AE711551AB7A7F600ADFA83 /* CharacterRace+Methods.m in Sources */,
 				6A2507C31AA1578D00C2C98C /* Spell+Methods.m in Sources */,
 				6A51369E1AA2862500EF9FEC /* MM_StarterSetDataGenerator.m in Sources */,
+				3D23DAC91C5F0EEC00C5FFBA /* DreamGame.xcdatamodeld in Sources */,
 				6A3553761ABA6486002BCD86 /* AbilityScore.m in Sources */,
 				6A1ACADA1AA0CEA9002A231F /* MM_StarterSetDataManager.m in Sources */,
 				6AE7116D1AB7C7F700ADFA83 /* SchoolOfMagic.m in Sources */,
@@ -735,6 +739,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		3D23DAC71C5F0EEC00C5FFBA /* DreamGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D23DAC81C5F0EEC00C5FFBA /* DreamGame.xcdatamodel */,
+			);
+			currentVersion = 3D23DAC81C5F0EEC00C5FFBA /* DreamGame.xcdatamodel */;
+			path = DreamGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		6AA2E2D81A9A595A00843582 /* Cantrip.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
